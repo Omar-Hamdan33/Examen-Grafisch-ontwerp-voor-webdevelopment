@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaterTheme - Thematische Catering op Maat</title>
+  <meta name="description" content="CaterTheme verzorgt unieke thematische catering voor bruiloften, feesten en bedrijfsevenementen. Smaakvol genieten op maat.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/homepagina.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Hoofdnavigatie">
+      <div class="nav-container">
+        <a href="./index.html" class="nav-logo" aria-label="CaterTheme - Naar homepagina">
+          <img src="./src/logo.png" class="logo" alt="CaterTheme Logo">
+        </a>
+
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./info.html" class="nav-link">Info</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Banner Section -->
+    <section class="hero-section" aria-label="Hoofdbanners">
+      <div class="banner-slider">
+        <article class="banner-slide active">
+          <div class="banner-image">
+            <img src="./src/banner.png" alt="Elegante gedekte tafel met thematische decoratie">
+          </div>
+          <div class="banner-content">
+            <h1>Smaakvol genieten op maat</h1>
+            <p>Ervaar hoe sfeer en smaak samenkomen in een uniek thema. Laat jouw evenement spreken met onze verrassende catering.</p>
+            <a href="./contact.html" class="cta-button">Reserveer nu</a>
+          </div>
+        </article>
+
+        <article class="banner-slide">
+          <div class="banner-image">
+            <img src="./src/banner2.png" alt="Feestelijke catering setup">
+          </div>
+          <div class="banner-content">
+            <h1>Feestelijk en stijlvol</h1>
+            <p>Van intiem diner tot groots evenement: wij maken jouw moment onvergetelijk met heerlijke gerechten en sfeervolle aankleding</p>
+            <a href="./contact.html" class="cta-button">Reserveer nu</a>
+          </div>
+        </article>
+
+        <article class="banner-slide">
+          <div class="banner-image">
+            <img src="./src/banner3.png" alt="Thematische catering arrangement">
+          </div>
+          <div class="banner-content">
+            <h1>Themacatering met karakter</h1>
+            <p>Elk detail klopt. Elk hapje verrast. Ontdek hoe wij van elk thema een smaakvolle belevenis maken.</p>
+            <a href="./contact.html" class="cta-button">Reserveer nu</a>
+          </div>
+        </article>
+
+        <div class="banner-controls" aria-label="Banner navigatie">
+          <button class="banner-prev" aria-label="Vorige banner">&larr;</button>
+          <div class="banner-dots" role="tablist" aria-label="Banner indicatoren"></div>
+          <button class="banner-next" aria-label="Volgende banner">&rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thema's Section -->
+    <section class="themes-section" aria-label="Onze thema's">
+      <div class="container">
+        <h2 class="section-title">Onze populaire thema's</h2>
+        <div class="themes-slider">
+          <article class="theme-slide active">
+            <div class="theme-content">
+              <h3>Een magische avond met Game of Thrones</h3>
+              <p>Ridders, draken, kaarslicht en middeleeuws banket. Beleef een legendarische avond met een vleugje fantasy.</p>
+              <a href="./contact.html" class="theme-btn">Reserveer</a>
+            </div>
+            <div class="theme-image">
+              <img src="./src/thema.png" alt="Game of Thrones thema catering setup">
+            </div>
+          </article>
+
+          <article class="theme-slide">
+            <div class="theme-content">
+              <h3>Mario Party voor jong & oud</h3>
+              <p>Van kleurrijke snacks tot creatieve pizzapunten – een speels feestje vol herkenning en plezier voor iedereen.</p>
+              <a href="./contact.html" class="theme-btn">Reserveer</a>
+            </div>
+            <div class="theme-image">
+              <img src="./src/thema2.png" alt="Mario Party thema catering setup">
+            </div>
+          </article>
+
+          <article class="theme-slide">
+            <div class="theme-content">
+              <h3>Final Fantasy droomfeest</h3>
+              <p>Kristallen, magie, en epische sfeer! Geniet van luxe hapjes in een wereld vol fantasie en avontuur.</p>
+              <a href="./contact.html" class="theme-btn">Reserveer</a>
+            </div>
+            <div class="theme-image">
+              <img src="./src/thema3.jpg" alt="Final Fantasy thema catering setup">
+            </div>
+          </article>
+
+          <div class="slider-controls" aria-label="Thema navigatie">
+            <button class="prev" aria-label="Vorig thema">&larr;</button>
+            <div class="dots" role="tablist" aria-label="Thema indicatoren"></div>
+            <button class="next" aria-label="Volgend thema">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="background-section">
+      <div class="container">
+        <h2 class="section-title">Wat onze klanten zeggen</h2>
+        <div class="review-slider">
+          <article class="review-slide active">
+            <div class="review-card">
+              <img src="./src/klant.png" alt="Foto van klanten Sven & Susane">
+              <div class="review-content">
+                <h3>Sven & Susane</h3>
+                <p>"Ons bruiloftsfeest was perfect. De sfeer, het eten, de aankleding – alles paste bij ons thema. CaterTheme overtrof onze verwachtingen."</p>
+                <div class="stars" aria-label="5 van 5 sterren">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-slide">
+            <div class="review-card">
+              <img src="./src/klant2.jpg" alt="Foto van klant Jaimy">
+              <div class="review-content">
+                <h3>Jaimy</h3>
+                <p>"Wat een fantastische dag! De smaken, het concept, de styling… alles was tot in de puntjes geregeld. Echt een aanrader."</p>
+                <div class="stars" aria-label="5 van 5 sterren">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-slide">
+            <div class="review-card">
+              <img src="./src/klant3.png" alt="Foto van klant Francisca">
+              <div class="review-content">
+                <h3>Francisca</h3>
+                <p>"Onze gasten waren onder de indruk. Van de eerste hap tot de laatste dans – alles was precies zoals we wilden. Bedankt!"</p>
+                <div class="stars" aria-label="5 van 5 sterren">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+          </article>
+
+          <div class="review-controls" aria-label="Review navigatie">
+            <button class="review-prev" aria-label="Vorige review">&larr;</button>
+            <div class="review-dots" role="tablist" aria-label="Review indicatoren"></div>
+            <button class="review-next" aria-label="Volgende review">&rarr;</button>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+          <h2 class="contact-title">Plan jouw unieke catering</h2>
+          <div class="section-divider">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <div class="line"></div>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+          <div class="contact">
+            <div class="contact-wrapper">
+              <form class="contact-form" aria-label="Contact formulier">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="voornaam">Voornaam *</label>
+                    <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="tussenvoegsel">Tussenvoegsel</label>
+                    <input type="text" id="tussenvoegsel" name="tussenvoegsel" placeholder="Tussenvoegsel">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="achternaam">Achternaam *</label>
+                    <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="telefoon">Telefoonnummer</label>
+                  <input type="tel" id="telefoon" name="telefoon" placeholder="Telefoonnummer">
+                </div>
+
+                <div class="form-group">
+                  <label for="bericht">Bericht *</label>
+                  <textarea id="bericht" name="bericht" placeholder="Vertel ons over uw evenement en gewenste thema..." rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="contact-button">Verstuur aanvraag</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Events Section -->
+    <section class="featured-events">
+      <div class="container">
+        <h2>Onze mooiste evenementen</h2>
+        <ul class="events-list">
+          <li><a href="./info.html">Game of Thrones: Een middeleeuws spektakel vol vuur en vlam</a></li>
+          <li><a href="./info.html">Suits Diner: Zakelijke klasse in een stijlvolle setting</a></li>
+          <li><a href="./info.html">Mario Party: Spelplezier en lekkernijen voor jong en oud</a></li>
+          <li><a href="./info.html">Wedding Special: Romantiek tot in de kleinste details</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Over CaterTheme</h3>
+          <p>CaterTheme is specialist in thematische catering. Wij combineren heerlijke gerechten met unieke concepten en sfeer. Jouw bruiloft, feest of bedrijfsevenement krijgt een smaakvol karakter dat indruk maakt.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Sitemap</h3>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <address>
+            <p>Email: <a href="mailto:info@catertheme.nl">info@catertheme.nl</a></p>
+            <p>Telefoon: <a href="tel:+31612345678">+31 6 12 34 56 78</a></p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CaterTheme. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - CaterTheme | Plan uw unieke catering</title>
+  <meta name="description" content="Neem contact op met CaterTheme voor uw thematische catering. Plan uw unieke evenement met onze specialisten.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Hoofdnavigatie">
+      <div class="nav-container">
+        <a href="./index.html" class="nav-logo" aria-label="CaterTheme - Naar homepagina">
+          <img src="./src/logo.png" class="logo" alt="CaterTheme Logo">
+        </a>
+
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./info.html" class="nav-link">Info</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link" aria-current="page">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Laten we samen uw droomfeest plannen. Neem contact op voor een vrijblijvende offerte.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <h2 class="contact-title">Plan uw unieke catering</h2>
+        <div class="section-divider">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <div class="line"></div>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <div class="contact">
+          <div class="contact-wrapper">
+            <form class="contact-form" aria-label="Contact formulier">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="voornaam">Voornaam *</label>
+                  <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required>
+                </div>
+                <div class="form-group">
+                  <label for="tussenvoegsel">Tussenvoegsel</label>
+                  <input type="text" id="tussenvoegsel" name="tussenvoegsel" placeholder="Tussenvoegsel">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="achternaam">Achternaam *</label>
+                  <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail *</label>
+                  <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="telefoon">Telefoonnummer</label>
+                <input type="tel" id="telefoon" name="telefoon" placeholder="Telefoonnummer">
+              </div>
+
+              <div class="form-group">
+                <label for="bericht">Bericht *</label>
+                <textarea id="bericht" name="bericht" placeholder="Vertel ons over uw evenement en gewenste thema..." rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="contact-button">Verstuur aanvraag</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Over CaterTheme</h3>
+          <p>CaterTheme verzorgt thematische catering voor bruiloften, feesten en evenementen. Uniek, stijlvol en smaakvol tot in detail.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Sitemap</h3>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <address>
+            <p>Email: <a href="mailto:info@catertheme.nl">info@catertheme.nl</a></p>
+            <p>Telefoon: <a href="tel:+31612345678">+31 6 12 34 56 78</a></p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CaterTheme. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
