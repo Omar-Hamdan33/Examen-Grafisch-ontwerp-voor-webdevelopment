@@ -1,0 +1,2 @@
+Dit project is het examen voor "Grafisch ontwerp voor Webdevelopment". Het laat zien hoe ik ontwerpprincipes toepas in een responsieve website met HTML, CSS en JavaScript. De focus ligt op typografie, kleurgebruik, layout (grid & flex), toegankelijkheid en eenvoudige interacties.
+Ik heb het project ontwikkeld volgens de wensen van de klant en de opdrachtbriefing; ontwerpkeuzes en functionaliteit volgen expliciet de klantwensen.<img width="3410" height="2626" alt="image" src="https://github.com/user-attachments/assets/bae2c3de-04e9-43f0-b277-7f9574c47772" />
